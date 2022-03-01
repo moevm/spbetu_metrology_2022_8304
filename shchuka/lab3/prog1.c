@@ -23,14 +23,19 @@ void shellsort(float arr[], int num)
             SAMPLE;	
             for (k = j - i; k >= 0; k = k - i)
             {
+                SAMPLE;
                 if (arr[k + i] >= arr[k])
+                {
+                    SAMPLE;
                     break;
+                }
                 else
                 {
                     SAMPLE;
                     swap(&arr[k], &arr[k + i]);
                     SAMPLE;
                 }
+                SAMPLE;
             }
             SAMPLE;
         }
@@ -42,7 +47,6 @@ void shellsort(float arr[], int num)
 
 int main(int argc, char **argv)
 {
-
     sampler_init(&argc, argv);
     const int num = 200;
     float my_max = 100.0;
@@ -54,6 +58,8 @@ int main(int argc, char **argv)
         arr[k] = (float)rand() / (float)(RAND_MAX / my_max);
     }
 
+    SAMPLE;
     shellsort(arr, num);
+    SAMPLE;
     return 0;
 }

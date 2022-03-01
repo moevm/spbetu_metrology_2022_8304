@@ -14,25 +14,30 @@ void shellsort(float arr[], int num)
 {
     SAMPLE;
     int i, j, k;
-    float *tmp;
+    float* tmp;
     SAMPLE;
-    for (i = num / 2; i > 0; i = i / 2)
+    for (i = num / 2; i > 0; i = i >> 1)
     {
     	SAMPLE;
-        for (j = i; j < num; j++)
+        for (j = i; j < num; ++j)
         {
             SAMPLE;	
             for (k = j - i; k >= 0; k = k - i)
             {
             	tmp = arr + k;
+            	SAMPLE;
                 if (*(tmp + i) >= *(tmp))
+                {
+                    SAMPLE;
                     break;
+                }
                 else
                 {
                     SAMPLE;
                     swap(tmp, tmp + i);
                     SAMPLE;
                 }
+                SAMPLE;
             }
             SAMPLE;
         }
@@ -54,7 +59,9 @@ int main(int argc, char **argv)
     {
         arr[k] = (float)rand() / (float)(RAND_MAX / my_max);
     }
-
+    
+    SAMPLE;
     shellsort(arr, num);
+    SAMPLE;
     return 0;
 }
