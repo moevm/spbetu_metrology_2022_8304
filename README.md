@@ -16,7 +16,7 @@
 | 10   | Мешков     | Heliconter         |       |       |       |       |       |       |
 | 11   | Мухин      | mukhamux           |       |       |       |       |       |       |
 | 12   | Нам Е      | NamYoSeb           |       |       |       |       |       |       |
-| 13   | Николаева  | Nyashechka         |       |       |       |       |       |       |
+| 13   | Николаева  | Nyashechka         | 26.02 |       |       |       |       |       |
 | 14   | Птухов     | denisptuhov        |       |       |       |       |       |       |
 | 15   | Рыжиков    | AlexRyzhickov      |       |       |       |       |       |       |
 | 16   | Самакаев   | sidtheslooth20     |       |       |       |       |       |       |
