@@ -3,21 +3,21 @@
 #include "sampler.h"
 
 #ifndef n
-#define n 10000
+#define n 1000
 #endif
 
 void linfit2(float *x, float *y, float  *y_calc) {
     float sum_x = 0, sum_y = 0, sum_xy = 0, sum_x2 = 0, sum_y2 = 0;
-    float xi, yi, sxy, sxx, syy;
+    float sxy, sxx, syy;
     SAMPLE;
     for (int i = 0; i < n; ++i) {
-        xi = x[i];
-        yi = y[i];
-        sum_x += xi;
-        sum_y += yi;
-        sum_xy += xi * yi;
-        sum_x2 += xi * xi;
-        sum_y2 += yi * yi;
+        
+        
+        sum_x += x[i];
+        sum_y += y[i];
+        sum_xy += x[i] * y[i];
+        sum_x2 += x[i] * x[i];
+        sum_y2 += y[i] * y[i];
     }
     SAMPLE;
     sxx = sum_x2 - sum_x * sum_x / n;
@@ -63,4 +63,5 @@ int main(int argc, char **argv) {
     free(x);
     free(y);
     free(y_calc);
+    SAMPLE;
 }
