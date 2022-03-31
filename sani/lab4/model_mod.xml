@@ -1,0 +1,9 @@
+<model type = "Objects::AMC::Model" name = "model">
+	<node type = "Objects::AMC::Top" name = "t1"></node>
+	<node type = "Objects::AMC::Top" name = "t2"></node>
+	<node type = "Objects::AMC::Top" name = "t3"></node>
+	<node type = "Objects::AMC::Top" name = "t4"></node>
+	<link type = "Objects::AMC::Link" name = "t1-->t2" probability = "1.0" intensity = "25.566" deviation = "0.0" source = "t1" dest = "t2"></link>
+	<link type = "Objects::AMC::Link" name = "t2-->t3" probability = "1.0" intensity = "7.27" deviation = "0.0" source = "t2" dest = "t3"></link>
+	<link type = "Objects::AMC::Link" name = "t3-->t4" probability = "1.0" intensity = "6690.805" deviation = "0.0" source = "t3" dest = "t4"></link>
+</model>
