@@ -1,6 +1,6 @@
 #include <math.h>
 #include <stdio.h>
-
+#include "sampler.h"
 
 const double sqrtpi = 1.7724538;
 const double tol = 1.0E-4;
@@ -36,8 +36,10 @@ double erfc (double x) {
     return exp(-x2) / (x * sum * sqrtpi);
 }
 
+
 // evaluation of the gaussian error function
-int main () {
+int main (int argc, char **argv) {
+    sampler_init(&argc, argv);
     double x, er, ec;
     int done = 1;
     do {
@@ -45,6 +47,7 @@ int main () {
         scanf("%lf", &x);
         if (x < 0.0) done = 0;
         else {
+            SAMPLE;
             if (x == 0.0) {
                 er = 0.0;
                 ec = 1.0;
@@ -57,6 +60,7 @@ int main () {
                     er = 1.0 - ec;
                 }
             }
+            SAMPLE;
             printf("X = %.8lf; Erf = %.12lf; Erfc = %.12lf\n", x, er, ec);
         }
     } while (done);
