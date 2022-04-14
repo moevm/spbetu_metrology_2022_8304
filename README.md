@@ -12,7 +12,7 @@
 | 6    | Кирьянов   | dnlka              |       |       |       |       |       |       |
 | 7    | Масалыкин  | DanMsl             |       |       |       |       |       |       |
 | 8    | Матросов   | MatrosovDenis      |       |       |       |       |       |       |
-| 9    | Мельникова | olga-alexandrovnaa |       |       |       |       |       |       |
+| 9    | Мельникова | olga-alexandrovnaa | 24.02 |       |       |       |       |       |
 | 10   | Мешков     | Heliconter         |       |       |       |       |       |       |
 | 11   | Мухин      | mukhamux           |       |       |       |       |       |       |
 | 12   | Нам Е      | NamYoSeb           |       |       |       |       |       |       |
