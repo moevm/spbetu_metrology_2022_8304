@@ -17,7 +17,7 @@
 | 11   | Мухин      | mukhamux           |       |       |       |       |       |       |
 | 12   | Нам Е      | NamYoSeb           |       |       |       |       |       |       |
 | 13   | Николаева  | Nyashechka         | 26.02 |       |       |       |       |       |
-| 14   | Птухов     | denisptuhov        |       |       |       |       |       |       |
+| 14   | Птухов     | denisptuhov        | 01.03 |       |       |       |       |       |
 | 15   | Рыжиков    | AlexRyzhickov      |       |       |       |       |       |       |
 | 16   | Самакаев   | sidtheslooth20     |       |       |       |       |       |       |
 | 17   | Сани       | sanizayyad         |       |       |       |       |       |       |
