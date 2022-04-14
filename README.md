@@ -12,7 +12,7 @@
 | 6    | Кирьянов   | dnlka              |       |       |       |       |       |       |
 | 7    | Масалыкин  | DanMsl             |       |       |       |       |       |       |
 | 8    | Матросов   | MatrosovDenis      |       |       |       |       |       |       |
-| 9    | Мельникова | olga-alexandrovnaa | 24.02 |       |       |       |       |       |
+| 9    | Мельникова | olga-alexandrovnaa | 23.02 |       |       |       |       |       |
 | 10   | Мешков     | Heliconter         |       |       |       |       |       |       |
 | 11   | Мухин      | mukhamux           |       |       |       |       |       |       |
 | 12   | Нам Е      | NamYoSeb           |       |       |       |       |       |       |
@@ -22,7 +22,7 @@
 | 16   | Самакаев   | sidtheslooth20     |       |       |       |       |       |       |
 | 17   | Сани       | sanizayyad         |       |       |       |       |       |       |
 | 18   | Сергеев    | pseusys            |       |       |       |       |       |       |
-| 19   | Холковский | gagask             |       |       |       |       |       |       |
+| 19   | Холковский | gagask             | 24.02 |       |       |       |       |       |
 | 20   | Чешуин     | Wintari            |       |       |       |       |       |       |
 | 21   | Щука       | AleksandrShuka     | 19.02 |       |       |       |       |       |
 | 22   | Ястребов   | Pirozhochek        |       |       |       |       |       |       |
