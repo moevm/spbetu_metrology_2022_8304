@@ -1,0 +1,1 @@
+[{"file": "erfd.c", "line": 52, "func": "main", "edges": [{"dest": 1, "total-usec": 7462597.0, "total-count": 950, "usec": 7855.365263157894, "count": 1, "attrs": {"avg": 7855.365263157894, "var": 20196833.289214402, "std": 4494.088705089654}}]}, {"file": "erfd.c", "line": 60, "func": "main", "edges": []}]
