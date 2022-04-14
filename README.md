@@ -14,7 +14,7 @@
 | 8    | Матросов   | MatrosovDenis      |       |       |       |       |       |       |
 | 9    | Мельникова | olga-alexandrovnaa | 23.02 |       |       |       |       |       |
 | 10   | Мешков     | Heliconter         |       |       |       |       |       |       |
-| 11   | Мухин      | mukhamux           |       |       |       |       |       |       |
+| 11   | Мухин      | mukhamux           | 03.03 |       |       |       |       |       |
 | 12   | Нам Е      | NamYoSeb           |       |       |       |       |       |       |
 | 13   | Николаева  | Nyashechka         | 26.02 |       |       |       |       |       |
 | 14   | Птухов     | denisptuhov        | 01.03 |       |       |       |       |       |
