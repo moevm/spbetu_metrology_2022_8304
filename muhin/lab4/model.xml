@@ -1,0 +1,31 @@
+<model type = "Objects::AMC::Model" name = "model">
+	<node type = "Objects::AMC::Top" name = "t1"></node>
+	<node type = "Objects::AMC::Top" name = "t2"></node>
+	<node type = "Objects::AMC::Top" name = "t3"></node>
+	<node type = "Objects::AMC::Top" name = "t4"></node>
+	<node type = "Objects::AMC::Top" name = "t5"></node>
+	<node type = "Objects::AMC::Top" name = "t6"></node>
+	<node type = "Objects::AMC::Top" name = "t7"></node>
+	<node type = "Objects::AMC::Top" name = "t8"></node>
+	<node type = "Objects::AMC::Top" name = "t9"></node>
+	<node type = "Objects::AMC::Top" name = "t10"></node>
+	<node type = "Objects::AMC::Top" name = "t11"></node>
+	<node type = "Objects::AMC::Top" name = "t12"></node>
+	<link type = "Objects::AMC::Link" name = "t1-->t2" probability = "1.0" intensity = "45.09" deviation = "0.0" source = "t1" dest = "t2"></link>
+	<link type = "Objects::AMC::Link" name = "t2-->t3" probability = "0.75" intensity = "4.125" deviation = "0.0" source = "t2" dest = "t3"></link>
+	<link type = "Objects::AMC::Link" name = "t3-->t2" probability = "0.25" intensity = "8.954" deviation = "0.0" source = "t3" dest = "t2"></link>
+	<link type = "Objects::AMC::Link" name = "t3-->t4" probability = "0.75" intensity = "8.167" deviation = "0.0" source = "t3" dest = "t4"></link>
+	<link type = "Objects::AMC::Link" name = "t4-->t3" probability = "1.0" intensity = "7.104" deviation = "0.0" source = "t4" dest = "t3"></link>
+	<link type = "Objects::AMC::Link" name = "t2-->t5" probability = "0.25" intensity = "40.192" deviation = "0.0" source = "t2" dest = "t5"></link>
+	<link type = "Objects::AMC::Link" name = "t5-->t6" probability = "1.0" intensity = "23.743" deviation = "0.0" source = "t5" dest = "t6"></link>
+	<link type = "Objects::AMC::Link" name = "t5-->t12" probability = "0.0" intensity = "0.0" deviation = "0.0" source = "t5" dest = "t12"></link>
+	<link type = "Objects::AMC::Link" name = "t6-->t7" probability = "1.0" intensity = "6.951" deviation = "0.0" source = "t6" dest = "t7"></link>
+	<link type = "Objects::AMC::Link" name = "t7-->t8" probability = "0.75" intensity = "14.186" deviation = "0.0" source = "t7" dest = "t8"></link>
+	<link type = "Objects::AMC::Link" name = "t7-->t11" probability = "0.25" intensity = "32.161" deviation = "0.0" source = "t7" dest = "t11"></link>
+	<link type = "Objects::AMC::Link" name = "t8-->t9" probability = "0.67" intensity = "11.076" deviation = "0.0" source = "t8" dest = "t9"></link>
+	<link type = "Objects::AMC::Link" name = "t8-->t10" probability = "0.33" intensity = "3.526" deviation = "0.0" source = "t8" dest = "t10"></link>
+	<link type = "Objects::AMC::Link" name = "t9-->t10" probability = "1.0" intensity = "3.592" deviation = "0.0" source = "t9" dest = "t10"></link>
+	<link type = "Objects::AMC::Link" name = "t10-->t7" probability = "1.0" intensity = "1.35" deviation = "0.0" source = "t10" dest = "t7"></link>
+	<link type = "Objects::AMC::Link" name = "t11-->t6" probability = "0.67" intensity = "18.045" deviation = "0.0" source = "t11" dest = "t6"></link>
+	<link type = "Objects::AMC::Link" name = "t11-->t12" probability = "0.33" intensity = "42.63" deviation = "0.0" source = "t11" dest = "t12"></link>
+</model>

@@ -14,9 +14,9 @@ git fetch Nyashechka         # Николаева
 git fetch denisptuhov        # Птухов     
 git fetch AlexRyzhickov      # Рыжиков    
 git fetch sidtheslooth20     # Самакаев   
-#git fetch sanizayyad         # Сани       
-#git fetch pseusys            # Сергеев    
+git fetch sanizayyad         # Сани       
+git fetch pseusys            # Сергеев    
 git fetch gagask             # Холковский 
 git fetch Wintari            # Чешуин     
 git fetch AleksandrShuka     # Щука       
-#git fetch Pirozhochek        # Ястребов   
+git fetch Pirozhochek        # Ястребов   

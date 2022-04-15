@@ -1,0 +1,120 @@
+
+
+Statistics for module .\pascal.lxm
+=====================================
+The number of different operators     : 15
+The number of different operands      : 50
+The total number of operators         : 192
+The total number of operands          : 146
+
+Dictionary                   (  D)    : 65
+Length                       (  N)    : 338
+Length estimation            ( ^N)    : 340.796
+Volume                       (  V)    : 2035.56
+Potential volume             ( *V)    : 8
+Limit volume                 (**V)    : 8
+Programming level            (  L)    : 0.00393012
+Programming level estimation ( ^L)    : 0.0456621
+Intellect                    (  I)    : 92.948
+Time of programming          (  T)    : 28774.3
+Time estimation              ( ^T)    : 2497.09
+Programming language level   (lambda) : 0.031441
+Work on programming          (  E)    : 517938
+Error                        (  B)    : 2.1498
+Error estimation             ( ^B)    : 0.67852
+
+
+Table:
+====================================
+Operators:
+|  1	|  37	| ()
+|  2	|  31	| *
+|  3	|  23	| +
+|  4	|  3	| -
+|  5	|  14	| /
+|  6	|  38	| ;
+|  7	|  2	| <
+|  8	|  30	| =
+|  9	|  2	| const
+|  10	|  2	| erf
+|  11	|  2	| erfc
+|  12	|  2	| exp
+|  13	|  3	| if
+|  14	|  1	| program
+|  15	|  2	| real
+Operands:
+|  1	|  3	| 0.0
+|  2	|  1	| 0.01693122
+|  3	|  1	| 0.07619048
+|  4	|  2	| 0.66666667
+|  5	|  14	| 1
+|  6	|  5	| 1.0
+|  7	|  1	| 1.5
+|  8	|  2	| 1.7724538
+|  9	|  1	| 10
+|  10	|  1	| 11
+|  11	|  1	| 12
+|  12	|  1	| 2
+|  13	|  2	| 2.0
+|  14	|  1	| 3
+|  15	|  1	| 3.078403E-3
+|  16	|  1	| 4
+|  17	|  1	| 4.736005E-4
+|  18	|  1	| 5
+|  19	|  1	| 6
+|  20	|  1	| 6.314673E-5
+|  21	|  1	| 6.476214E-9
+|  22	|  1	| 7
+|  23	|  1	| 7.429027E-6
+|  24	|  1	| 7.447646E-8
+|  25	|  1	| 7.820028E-7
+|  26	|  1	| 8
+|  27	|  1	| 9
+|  28	|  2	| done
+|  29	|  5	| ec
+|  30	|  5	| er
+|  31	|  1	| erf
+|  32	|  1	| erfc
+|  33	|  1	| erfd4
+|  34	|  4	| sqrtpi
+|  35	|  8	| sum
+|  36	|  2	| t10
+|  37	|  2	| t11
+|  38	|  2	| t12
+|  39	|  2	| t2
+|  40	|  2	| t3
+|  41	|  2	| t4
+|  42	|  2	| t5
+|  43	|  2	| t6
+|  44	|  2	| t7
+|  45	|  2	| t8
+|  46	|  2	| t9
+|  47	|  1	| true
+|  48	|  14	| v
+|  49	|  15	| x
+|  50	|  18	| x2
+
+
+Summary: 
+=====================================
+The number of different operators     : 15
+The number of different operands      : 50
+The total number of operators         : 192
+The total number of operands          : 146
+
+Dictionary                   (  D)    : 65
+Length                       (  N)    : 338
+Length estimation            ( ^N)    : 340.796
+Volume                       (  V)    : 2035.56
+Potential volume             ( *V)    : 8
+Limit volume                 (**V)    : 8
+Programming level            (  L)    : 0.00393012
+Programming level estimation ( ^L)    : 0.0456621
+Intellect                    (  I)    : 92.948
+Time of programming          (  T)    : 28774.3
+Time estimation              ( ^T)    : 2497.09
+Programming language level   (lambda) : 0.031441
+Work on programming          (  E)    : 517938
+Error                        (  B)    : 2.1498
+Error estimation             ( ^B)    : 0.67852
+
