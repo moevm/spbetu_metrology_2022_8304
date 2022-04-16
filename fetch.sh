@@ -1,15 +1,15 @@
 git fetch Legendorik         # Алтухов    
 #git fetch artbutko           # Бутко      
-#git fetch UTHawk             # Бочаров    
+git fetch UTHawk             # Бочаров    
 git fetch StiXs221           # Воропаев   
 git fetch scissorsnatcher    # Ивченко    
-#git fetch dnlka              # Кирьянов   
+git fetch dnlka              # Кирьянов   
 #git fetch DanMsl             # Масалыкин  
 #git fetch MatrosovDenis      # Матросов   
 git fetch olga-alexandrovnaa # Мельникова 
 git fetch Heliconter         # Мешков     
 git fetch mukhamux           # Мухин      
-#git fetch NamYoSeb           # Нам Е      
+git fetch NamYoSeb           # Нам Е      
 git fetch Nyashechka         # Николаева  
 git fetch denisptuhov        # Птухов     
 git fetch AlexRyzhickov      # Рыжиков    
