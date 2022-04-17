@@ -30,19 +30,20 @@ double erfc(double x){
     v=1.0/(2.0*x2);
     sum=v/(1+8*v/(1+9*v/(1+10*v/(1+11*v/(1+12*v)))));
     sum=v/(1+3*v/(1+4*v/(1+5*v/(1+6*v/(1+7*sum)))));
-    printf("%lf\n", sum);
+
     return 1.0/(exp(x2)*x*sqrt(M_PI)*(1+v/(1+2*sum)));
 }
 
 int main(int pargc, char **argv) {
-    sampler_init(&pargc, argv);
-
-    bool done = false; //в этой строчке parser_c видит синтаксическую ошибку
+	sampler_init(&pargc, argv);
+	
+    bool done = false;
     double x, er, ec;
-    SAMPLE;
-        //printf("Arg? ");
-        //scanf("%lf", &x);
-		x = 1.7
+	int i = 5
+	SAMPLE;
+    do {
+        --i
+        x = i
         if (x < 0.0) {
             done = true;
         }
@@ -53,21 +54,22 @@ int main(int pargc, char **argv) {
             } else {
                 if (x < 1.5)
                 {
-		    SAMPLE;
+					SAMPLE;
                     er=erf(x);
-		    SAMPLE;
                     ec=1.0 - er;
+					SAMPLE;
                 }
                 else
                 {
-			SAMPLE;
+					SAMPLE;
                     ec=erfc(x);
-			SAMPLE;
                     er=1.0 - ec;
+					SAMPLE;
                 }
             }
-            //printf("X= %lf ,Erf= %lf ,Erfc= %lf\n", x, er, ec);
         }
-    SAMPLE;
+    }
+    while (done == false);
+	SAMPLE;
     return 0;
 }
