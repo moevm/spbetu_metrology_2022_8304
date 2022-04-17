@@ -27,9 +27,9 @@ void sort(int a[max], int n) {
 			for (j = 0; j < n; ++j) {
 				i = j + jump;
 				SAMPLE;
-				if (a[j] > a[i]) {
+				if (*(a + j) > *(a + i)) {
 					SAMPLE;
-					swap(a + i, a + j);
+					swap(&a[i], &a[j]);
 					SAMPLE;
 					done = 0;
 				}
