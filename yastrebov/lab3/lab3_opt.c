@@ -30,9 +30,10 @@ void sort(int a[max], int n){
 	    {
 	        if (a[j] > a[j + jump])
 	        {
+                i = j + jump;
                 float tmp=a[j];
-                a[j] = a[j + jump];
-                a[j + jump] = tmp;
+                a[j] = a[i];
+                a[i] = tmp;
 		        done = 0;
 	        }
 	    }
