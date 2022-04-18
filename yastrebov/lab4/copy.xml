@@ -13,6 +13,7 @@
 	<node type = "Objects::AMC::Top" name = "t11"></node>
 	<node type = "Objects::AMC::Top" name = "t12"></node>
 	<link type = "Objects::AMC::Link" name = "t0-->t1" probability = "1.0" intensity = "112.5" deviation = "0.0" source = "t0" dest = "t1"></link>
+	<link type = "Objects::AMC::Link" name = "t0-->t7" probability = "0.0" intensity = "0.0" deviation = "0.0" source = "t0" dest = "t7"></link>
 	<link type = "Objects::AMC::Link" name = "t1-->t2" probability = "1.0" intensity = "25.0" deviation = "0.0" source = "t1" dest = "t2"></link>
 	<link type = "Objects::AMC::Link" name = "t2-->t3" probability = "1.0" intensity = "16.667" deviation = "0.0" source = "t2" dest = "t3"></link>
 	<link type = "Objects::AMC::Link" name = "t3-->t4" probability = "1.0" intensity = "-16.667" deviation = "0.0" source = "t3" dest = "t4"></link>
