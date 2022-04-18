@@ -48,30 +48,26 @@ void sort(int a[max], int n){
 
 void write_arr(int a[max])
 {
-    SAMPLE;
-    for (int i = 0;SAMPLE, i < max; ++i)
+    for (int i = 0;i < max; ++i)
     {
-        SAMPLE;
         //printf("%d\n", a[i]);
-        SAMPLE;
-    } SAMPLE;
+
+    } 
 }
 
 
 int main(int pargc, char **argv) {
  sampler_init(&pargc, argv);
- SAMPLE;
+
  int n = max;
  srand(time(NULL));
  int x[max];
- SAMPLE;
- for(int i = 0;SAMPLE, (i < n); ++i)
- {SAMPLE;
+
+ for(int i = 0;(i < n); ++i)
+ {
      x[i] = rand() % 100;
 
- SAMPLE;}
- SAMPLE;
+ }
  sort( x,n );
  write_arr(x);
- SAMPLE;
-}
+ }
